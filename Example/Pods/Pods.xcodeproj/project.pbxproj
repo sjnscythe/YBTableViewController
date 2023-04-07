@@ -1,0 +1,776 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		195F0783CF21CB3FC92320CA1E35C257 /* YBTableViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DA0A5FF3851137CB590A3965CFFCCA7 /* YBTableViewController-dummy.m */; };
+		357549EB7079F268A166787A1A14AA81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		45EAD866C04B3C6E7468968016A21620 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D74FCA6C286F5869986DE8582CD1CF /* ReplaceMe.swift */; };
+		6B65D8DCA5D8BC709A47238E7924EBF5 /* YBTableViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F964EEA8779EBF09222D369B59ACBC80 /* YBTableViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E2BFB7E56BF4CC4E3AE64360F68283A /* Pods-YBTableViewController_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F5F1E96FD99F4A85533AA00ABA6F9474 /* Pods-YBTableViewController_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B8B4120CAAE2C7E70CBA6CD4B532FED6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		C3D646F24D9C56450CF1899506DD2255 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		C5B01286D36C3D465539E5A3F2CCAA78 /* Pods-YBTableViewController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E1A805136C9432CCEF115AB45BCAB24 /* Pods-YBTableViewController_Example-dummy.m */; };
+		CD9A7C6C8CD25A5E1710A33BB7CA9637 /* Pods-YBTableViewController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 39AE6DFE3F39F10233D3BAD588B80114 /* Pods-YBTableViewController_Tests-dummy.m */; };
+		EEAC815A7346A0E4A9AFD40E883936CF /* Pods-YBTableViewController_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B06B94E3672D1CE542FCEDAF6FB54EE /* Pods-YBTableViewController_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		49A6A08DCEE7992B5CF6B16B3DAEA72C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0AE88C3AA14B90337CCB5D23172A5EB7;
+			remoteInfo = YBTableViewController;
+		};
+		C1E942E162B592F3C164D2B75272E500 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2E869B964FD93CF0B58718255E10221;
+			remoteInfo = "Pods-YBTableViewController_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0779AE61E8C4E1ADD76B1A5A96F6A324 /* YBTableViewController */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YBTableViewController; path = YBTableViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D8AE1DC799E3514F35A17EEC5AF773C /* YBTableViewController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = YBTableViewController.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		10E51B138855B497A856E6CF5806C61C /* Pods-YBTableViewController_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YBTableViewController_Tests-Info.plist"; sourceTree = "<group>"; };
+		231CD6CB2523A9F5F25821B45B85459E /* Pods-YBTableViewController_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YBTableViewController_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		2572345A73C20BB879C26720073AFECD /* Pods-YBTableViewController_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YBTableViewController_Example-frameworks.sh"; sourceTree = "<group>"; };
+		2DA0A5FF3851137CB590A3965CFFCCA7 /* YBTableViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YBTableViewController-dummy.m"; sourceTree = "<group>"; };
+		34674A3312645CAF8839888C231A04C1 /* Pods-YBTableViewController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YBTableViewController_Example.release.xcconfig"; sourceTree = "<group>"; };
+		38BC178865E3A53D41F59830A42B3440 /* Pods-YBTableViewController_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YBTableViewController_Example-Info.plist"; sourceTree = "<group>"; };
+		39AE6DFE3F39F10233D3BAD588B80114 /* Pods-YBTableViewController_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YBTableViewController_Tests-dummy.m"; sourceTree = "<group>"; };
+		46D74FCA6C286F5869986DE8582CD1CF /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = YBTableViewController/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		4AF3C813F0C8B3081E132FC6477D4F30 /* Pods-YBTableViewController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YBTableViewController_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		4B06B94E3672D1CE542FCEDAF6FB54EE /* Pods-YBTableViewController_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YBTableViewController_Example-umbrella.h"; sourceTree = "<group>"; };
+		4C7EC51D13A45D9F6CC613F2BFD06CA7 /* Pods-YBTableViewController_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YBTableViewController_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4E1A805136C9432CCEF115AB45BCAB24 /* Pods-YBTableViewController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YBTableViewController_Example-dummy.m"; sourceTree = "<group>"; };
+		4EF7C8250233A4CE63385349C187F719 /* YBTableViewController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YBTableViewController-Info.plist"; sourceTree = "<group>"; };
+		5E0929620F31AE2AC769DA6615C536D2 /* Pods-YBTableViewController_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-YBTableViewController_Tests"; path = Pods_YBTableViewController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		640A8C5B2EF5CFB614CEBDCDBB88C6C2 /* Pods-YBTableViewController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YBTableViewController_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		6504BEE39F90F41C23D56FA85176C2F4 /* Pods-YBTableViewController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YBTableViewController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		6A1EA4E6D823180B4DA918F7FC15C825 /* Pods-YBTableViewController_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YBTableViewController_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		87CF72D33D4AB1D9403181D9F8BFDF0C /* YBTableViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YBTableViewController-prefix.pch"; sourceTree = "<group>"; };
+		91466FCE4986C7A625DAF420493B2C1D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		92BAA8D7CE0E72DD29E7402A43DDF0A4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AA25876DA2403412CAC538C45ADE60F8 /* YBTableViewController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YBTableViewController.debug.xcconfig; sourceTree = "<group>"; };
+		BDD0FA660F4CB517CFC09C490F5B7611 /* Pods-YBTableViewController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YBTableViewController_Example.modulemap"; sourceTree = "<group>"; };
+		C6F3594AA31AF7C710B563514AEFFEEB /* Pods-YBTableViewController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YBTableViewController_Tests.modulemap"; sourceTree = "<group>"; };
+		CA5ACCE20EE9F17891EC46C2B8FF77EE /* YBTableViewController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YBTableViewController.release.xcconfig; sourceTree = "<group>"; };
+		CF10971D784612B8742F259EE4B5CEBB /* Pods-YBTableViewController_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-YBTableViewController_Example"; path = Pods_YBTableViewController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E02CFE7FAC9BD6C1E633BBD699F121A8 /* YBTableViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YBTableViewController.modulemap; sourceTree = "<group>"; };
+		EBADC0149944DE0EFE82EC2F0CC68A54 /* Pods-YBTableViewController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YBTableViewController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		F5F1E96FD99F4A85533AA00ABA6F9474 /* Pods-YBTableViewController_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YBTableViewController_Tests-umbrella.h"; sourceTree = "<group>"; };
+		F964EEA8779EBF09222D369B59ACBC80 /* YBTableViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YBTableViewController-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3CD2B92EBC10BD5F03D1555B2C2A980E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3D646F24D9C56450CF1899506DD2255 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54D50421FC43318DD2F969F14F8A1ED0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				357549EB7079F268A166787A1A14AA81 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E8DFFD215B913572FE2AFB98B78D255 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8B4120CAAE2C7E70CBA6CD4B532FED6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		523131A1D5604B48F7D88F8AC7351F1A /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				91515AF8476214FA495879F92A8FA23E /* YBTableViewController */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5E6B573D30568D25A0DDC44044EADDE0 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AABF23C419CA96B2E8311A5CD74749C7 /* Pods-YBTableViewController_Example */,
+				6DC7BA33F2B0B0186B4B100224C6F0DB /* Pods-YBTableViewController_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		6DC7BA33F2B0B0186B4B100224C6F0DB /* Pods-YBTableViewController_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C6F3594AA31AF7C710B563514AEFFEEB /* Pods-YBTableViewController_Tests.modulemap */,
+				4C7EC51D13A45D9F6CC613F2BFD06CA7 /* Pods-YBTableViewController_Tests-acknowledgements.markdown */,
+				231CD6CB2523A9F5F25821B45B85459E /* Pods-YBTableViewController_Tests-acknowledgements.plist */,
+				39AE6DFE3F39F10233D3BAD588B80114 /* Pods-YBTableViewController_Tests-dummy.m */,
+				10E51B138855B497A856E6CF5806C61C /* Pods-YBTableViewController_Tests-Info.plist */,
+				F5F1E96FD99F4A85533AA00ABA6F9474 /* Pods-YBTableViewController_Tests-umbrella.h */,
+				EBADC0149944DE0EFE82EC2F0CC68A54 /* Pods-YBTableViewController_Tests.debug.xcconfig */,
+				4AF3C813F0C8B3081E132FC6477D4F30 /* Pods-YBTableViewController_Tests.release.xcconfig */,
+			);
+			name = "Pods-YBTableViewController_Tests";
+			path = "Target Support Files/Pods-YBTableViewController_Tests";
+			sourceTree = "<group>";
+		};
+		72134DD19D6A826F5E3346BFBA9F4651 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				91466FCE4986C7A625DAF420493B2C1D /* LICENSE */,
+				92BAA8D7CE0E72DD29E7402A43DDF0A4 /* README.md */,
+				0D8AE1DC799E3514F35A17EEC5AF773C /* YBTableViewController.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		78B5B2E0DD05DF779A535A4A2F849679 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF10971D784612B8742F259EE4B5CEBB /* Pods-YBTableViewController_Example */,
+				5E0929620F31AE2AC769DA6615C536D2 /* Pods-YBTableViewController_Tests */,
+				0779AE61E8C4E1ADD76B1A5A96F6A324 /* YBTableViewController */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		91515AF8476214FA495879F92A8FA23E /* YBTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				46D74FCA6C286F5869986DE8582CD1CF /* ReplaceMe.swift */,
+				72134DD19D6A826F5E3346BFBA9F4651 /* Pod */,
+				D8E48B666DB68055D8827E0952758BAD /* Support Files */,
+			);
+			name = YBTableViewController;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		AABF23C419CA96B2E8311A5CD74749C7 /* Pods-YBTableViewController_Example */ = {
+			isa = PBXGroup;
+			children = (
+				BDD0FA660F4CB517CFC09C490F5B7611 /* Pods-YBTableViewController_Example.modulemap */,
+				6A1EA4E6D823180B4DA918F7FC15C825 /* Pods-YBTableViewController_Example-acknowledgements.markdown */,
+				6504BEE39F90F41C23D56FA85176C2F4 /* Pods-YBTableViewController_Example-acknowledgements.plist */,
+				4E1A805136C9432CCEF115AB45BCAB24 /* Pods-YBTableViewController_Example-dummy.m */,
+				2572345A73C20BB879C26720073AFECD /* Pods-YBTableViewController_Example-frameworks.sh */,
+				38BC178865E3A53D41F59830A42B3440 /* Pods-YBTableViewController_Example-Info.plist */,
+				4B06B94E3672D1CE542FCEDAF6FB54EE /* Pods-YBTableViewController_Example-umbrella.h */,
+				640A8C5B2EF5CFB614CEBDCDBB88C6C2 /* Pods-YBTableViewController_Example.debug.xcconfig */,
+				34674A3312645CAF8839888C231A04C1 /* Pods-YBTableViewController_Example.release.xcconfig */,
+			);
+			name = "Pods-YBTableViewController_Example";
+			path = "Target Support Files/Pods-YBTableViewController_Example";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				523131A1D5604B48F7D88F8AC7351F1A /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				78B5B2E0DD05DF779A535A4A2F849679 /* Products */,
+				5E6B573D30568D25A0DDC44044EADDE0 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D8E48B666DB68055D8827E0952758BAD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E02CFE7FAC9BD6C1E633BBD699F121A8 /* YBTableViewController.modulemap */,
+				2DA0A5FF3851137CB590A3965CFFCCA7 /* YBTableViewController-dummy.m */,
+				4EF7C8250233A4CE63385349C187F719 /* YBTableViewController-Info.plist */,
+				87CF72D33D4AB1D9403181D9F8BFDF0C /* YBTableViewController-prefix.pch */,
+				F964EEA8779EBF09222D369B59ACBC80 /* YBTableViewController-umbrella.h */,
+				AA25876DA2403412CAC538C45ADE60F8 /* YBTableViewController.debug.xcconfig */,
+				CA5ACCE20EE9F17891EC46C2B8FF77EE /* YBTableViewController.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/YBTableViewController";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5E9E821946522018696F478439733B28 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E2BFB7E56BF4CC4E3AE64360F68283A /* Pods-YBTableViewController_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D84DE648E35B4E0988F2067B390A0C4F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEAC815A7346A0E4A9AFD40E883936CF /* Pods-YBTableViewController_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2826FA28E12AFA40C49FEB4DB021DE6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B65D8DCA5D8BC709A47238E7924EBF5 /* YBTableViewController-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0AE88C3AA14B90337CCB5D23172A5EB7 /* YBTableViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C892531C9C3E65B5AFCF3B4A6DB7C8C /* Build configuration list for PBXNativeTarget "YBTableViewController" */;
+			buildPhases = (
+				E2826FA28E12AFA40C49FEB4DB021DE6 /* Headers */,
+				E83BCAB93DA2EBF48BFBB98CD24DA03C /* Sources */,
+				54D50421FC43318DD2F969F14F8A1ED0 /* Frameworks */,
+				E455D99C854648536C24E8C9480ABA7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YBTableViewController;
+			productName = YBTableViewController;
+			productReference = 0779AE61E8C4E1ADD76B1A5A96F6A324 /* YBTableViewController */;
+			productType = "com.apple.product-type.framework";
+		};
+		F2E869B964FD93CF0B58718255E10221 /* Pods-YBTableViewController_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0910D28789CB6C2C5EE6EFFA0E3E328E /* Build configuration list for PBXNativeTarget "Pods-YBTableViewController_Example" */;
+			buildPhases = (
+				D84DE648E35B4E0988F2067B390A0C4F /* Headers */,
+				ACBA86DA35AD6C00FE87554AFBFE86A8 /* Sources */,
+				7E8DFFD215B913572FE2AFB98B78D255 /* Frameworks */,
+				9730345548EA5BD8D5B9AC28FC77AD03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				44450DBE63593FA4B8ADFA4A580D4403 /* PBXTargetDependency */,
+			);
+			name = "Pods-YBTableViewController_Example";
+			productName = Pods_YBTableViewController_Example;
+			productReference = CF10971D784612B8742F259EE4B5CEBB /* Pods-YBTableViewController_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		FC02276E832E9CF940592BE6CDAA70A3 /* Pods-YBTableViewController_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16F7772317A0FE3DDC2D6DEF499AF718 /* Build configuration list for PBXNativeTarget "Pods-YBTableViewController_Tests" */;
+			buildPhases = (
+				5E9E821946522018696F478439733B28 /* Headers */,
+				C3350B351665C860F9B0ACF195048033 /* Sources */,
+				3CD2B92EBC10BD5F03D1555B2C2A980E /* Frameworks */,
+				0234B34D529E2738A5DC7E40B847C841 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E9B1E0D71928221DE92F5BB63DFB880 /* PBXTargetDependency */,
+			);
+			name = "Pods-YBTableViewController_Tests";
+			productName = Pods_YBTableViewController_Tests;
+			productReference = 5E0929620F31AE2AC769DA6615C536D2 /* Pods-YBTableViewController_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 78B5B2E0DD05DF779A535A4A2F849679 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F2E869B964FD93CF0B58718255E10221 /* Pods-YBTableViewController_Example */,
+				FC02276E832E9CF940592BE6CDAA70A3 /* Pods-YBTableViewController_Tests */,
+				0AE88C3AA14B90337CCB5D23172A5EB7 /* YBTableViewController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0234B34D529E2738A5DC7E40B847C841 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9730345548EA5BD8D5B9AC28FC77AD03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E455D99C854648536C24E8C9480ABA7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACBA86DA35AD6C00FE87554AFBFE86A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5B01286D36C3D465539E5A3F2CCAA78 /* Pods-YBTableViewController_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3350B351665C860F9B0ACF195048033 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD9A7C6C8CD25A5E1710A33BB7CA9637 /* Pods-YBTableViewController_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E83BCAB93DA2EBF48BFBB98CD24DA03C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45EAD866C04B3C6E7468968016A21620 /* ReplaceMe.swift in Sources */,
+				195F0783CF21CB3FC92320CA1E35C257 /* YBTableViewController-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		44450DBE63593FA4B8ADFA4A580D4403 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YBTableViewController;
+			target = 0AE88C3AA14B90337CCB5D23172A5EB7 /* YBTableViewController */;
+			targetProxy = 49A6A08DCEE7992B5CF6B16B3DAEA72C /* PBXContainerItemProxy */;
+		};
+		8E9B1E0D71928221DE92F5BB63DFB880 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-YBTableViewController_Example";
+			target = F2E869B964FD93CF0B58718255E10221 /* Pods-YBTableViewController_Example */;
+			targetProxy = C1E942E162B592F3C164D2B75272E500 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3FF4BB869633DBBB5DF05BD7D4A8063A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBADC0149944DE0EFE82EC2F0CC68A54 /* Pods-YBTableViewController_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YBTableViewController_Tests/Pods-YBTableViewController_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YBTableViewController_Tests/Pods-YBTableViewController_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4B1C3679E73E6E699CC4751706C3BCAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AF3C813F0C8B3081E132FC6477D4F30 /* Pods-YBTableViewController_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YBTableViewController_Tests/Pods-YBTableViewController_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YBTableViewController_Tests/Pods-YBTableViewController_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7DE726A814138247F47E54E1C97F58AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 640A8C5B2EF5CFB614CEBDCDBB88C6C2 /* Pods-YBTableViewController_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YBTableViewController_Example/Pods-YBTableViewController_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YBTableViewController_Example/Pods-YBTableViewController_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A0F157D14365C73CD5102A575CFBE561 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34674A3312645CAF8839888C231A04C1 /* Pods-YBTableViewController_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YBTableViewController_Example/Pods-YBTableViewController_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YBTableViewController_Example/Pods-YBTableViewController_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		EE196932FC07C4FD7CDDDDD25F22541E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA25876DA2403412CAC538C45ADE60F8 /* YBTableViewController.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YBTableViewController/YBTableViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YBTableViewController/YBTableViewController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YBTableViewController/YBTableViewController.modulemap";
+				PRODUCT_MODULE_NAME = YBTableViewController;
+				PRODUCT_NAME = YBTableViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F49899CAE22C2286A8D9EE594BA55839 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA5ACCE20EE9F17891EC46C2B8FF77EE /* YBTableViewController.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YBTableViewController/YBTableViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YBTableViewController/YBTableViewController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YBTableViewController/YBTableViewController.modulemap";
+				PRODUCT_MODULE_NAME = YBTableViewController;
+				PRODUCT_NAME = YBTableViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0910D28789CB6C2C5EE6EFFA0E3E328E /* Build configuration list for PBXNativeTarget "Pods-YBTableViewController_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DE726A814138247F47E54E1C97F58AB /* Debug */,
+				A0F157D14365C73CD5102A575CFBE561 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16F7772317A0FE3DDC2D6DEF499AF718 /* Build configuration list for PBXNativeTarget "Pods-YBTableViewController_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FF4BB869633DBBB5DF05BD7D4A8063A /* Debug */,
+				4B1C3679E73E6E699CC4751706C3BCAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C892531C9C3E65B5AFCF3B4A6DB7C8C /* Build configuration list for PBXNativeTarget "YBTableViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE196932FC07C4FD7CDDDDD25F22541E /* Debug */,
+				F49899CAE22C2286A8D9EE594BA55839 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

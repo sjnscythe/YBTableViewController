@@ -1,0 +1,16 @@
+PODS:
+  - YBTableViewController (0.1.0)
+
+DEPENDENCIES:
+  - YBTableViewController (from `../`)
+
+EXTERNAL SOURCES:
+  YBTableViewController:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  YBTableViewController: 8f35d5a07618bf8f243acb4753470575b479ed5b
+
+PODFILE CHECKSUM: 4900e515e7c40d47aff53dc4e43bdaa0123f183e
+
+COCOAPODS: 1.12.0
